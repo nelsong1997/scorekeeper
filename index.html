@@ -7,21 +7,26 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="players">
+    <div id="players" class="section">
         <div id="p1" class="player">
-            <label for="p1name">p1</label>
-            <input id="p1name"/>
-            <input id="p1score" type="number"/>
+            <input id="p1name" placeholder="p1 name"/>
+            <input id="p1score" type="number" class="num-input" disabled/>
         </div>
         <div id="p2" class="player">
-            <label for="p2name">p2</label>
-            <input id="p2name"/>
-            <input id="p2score" type="number"/>
+            <input id="p2name" placeholder="p2 name"/>
+            <input id="p2score" type="number" class="num-input" disabled/>
         </div>
     </div>
-    <div id="tourney">
-        <input id="tourney-name"/>
-        <input id="tourney-round"/>
+    <div class="section">
+        <button id="reset-scores">reset scores</button>
+    </div>
+    <div class="section">
+        <input id="tourney-round" placeholder="tourney round"/>
+        <input id="tourney-name" placeholder="tourney name"/>
+    </div>
+    <div class="section">
+        <button id="save">save</button>
+        <label id="status-msg"></label>
     </div>
 </body>
 <script src="./index.js"></script>
