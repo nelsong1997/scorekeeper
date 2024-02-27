@@ -1,0 +1,13 @@
+body {
+    max-width: 500px;
+}
+
+#players {
+    display: flex;
+    justify-content: space-between;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+}
