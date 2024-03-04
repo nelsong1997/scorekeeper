@@ -19,3 +19,8 @@ body {
 .section {
     margin-bottom: 10px;
 }
+
+label {
+    font-family: 'Arial';
+    font-size: 10pt;
+}
